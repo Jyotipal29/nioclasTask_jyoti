@@ -1,0 +1,40 @@
+.main-container{
+max-width:600px;
+padding: 30px 40px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.btn-container{
+display: flex;
+justify-content: center;
+}
+.btn{
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.sub-container{
+border:1px solid black;
+padding: 30px 40px;
+
+margin: 20px 0px;
+background-color: #eee;
+}
+.loader{
+  font-size: 25px;
+  text-align: center;
+}
+
+
+@media (max-width:600px){
+  
+.main-container{
+padding: 10px 20px;
+margin: 10px;
+}
+.sub-container{
+padding: 20px 30px;
+
+margin: 20px 0px;
+}
+}
